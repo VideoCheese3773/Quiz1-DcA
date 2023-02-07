@@ -13,13 +13,13 @@ function divisibleBy(n = 10){
         let finalPrint = "error";
 
         if (flag3) {
-            finalPrint = "by 3";
+            finalPrint = `${i} by 3`;
         }
         if (flag5) {
-            finalPrint = "by 5";
+            finalPrint = `${i} by 5`;
         }
         if (flag3 && flag5) {
-            finalPrint = "by both";
+            finalPrint = `${i} by both`;
         }
         if (!flag3 && !flag5) {
             finalPrint = i;
